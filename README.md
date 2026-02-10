@@ -71,10 +71,10 @@
   
   ![Work Get Off Result](screenshots/5_result/work_get_off.png)
   > 퇴근 시간의 경우 강남, 역삼, 잠실 등 업무지구 지역에서 승차 인원이 제일 많습니다. 
-- **코드 설명 :** 자세한 데이터 전처리 코드는 [`src/6_processing/2024_Geumgang_WaterQuality_Analysis.py`](src/6_processing/2024_Geumgang_WaterQuality_Analysis)에서 확인할 수 있습니다.
+- **코드 설명 :** 자세한 데이터 전처리 코드는 [`data_analysis/5_analysis/src/commute_analysis.py`](data_analysis/5_analysis/src/commute_analysis.py)에서 확인할 수 있습니다.
 
 ### 2. 시간대별 승하차 패턴 분석
-- **데이터 전처리 :** 
+- **데이터 전처리 :** 출퇴근 시간대 혼잡이 특정 역과 노선에 집중되는 구조인지 확인하기 위해 서울시 지하철 데이터를 역·호선 단위로 집계하고, 승하차 인원 총합 기준이 상위 10개 역을 추출하여 시각화했습니다.
 - **분석 목표 :** 전체 시간대 중에서 승하차 인원이 제일 많은 시간대에 언제인 지 분석했습니다. 
 - **분석 결과 :** 
 
@@ -82,7 +82,7 @@
   
   ![Time Get Off](screenshots/5_result/time_get_off.png)
   > 승하차 모두 출근 시간대인 07-10시에 급격히 증가하고 점차 줄어들다가 17-20시인 퇴근시간 대에 급격히 증가하는 양상을 보이고 있습니다. 
-- **코드 설명 :** 자세한 데이터 전처리 코드는 [`src/6_processing/2024_Geumgang_WaterQuality_Analysis.py`](src/6_processing/2024_Geumgang_WaterQuality_Analysis)에서 확인할 수 있습니다.
+- **코드 설명 :** 최종 정리된 데이터 전처리 코드는 [`data_analysis/5_analysis/src/time_commute_analysis.py`](data_analysis/5_analysis/src/time_commute_analysis.py)에서 확인할 수 있습니다.
 ---
 
 ## 6. 해결 방안 
